@@ -7,6 +7,7 @@ const Colors = {
     success: '#00c851',
     warning: '#ffbb33',
     white: '#ffffff',
+    greywhite: '#f8f8f9',
 };
 
 export default Colors;

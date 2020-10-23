@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import bg from '../assets/images/bg.jpg';
 import Colors from './colors';
 import './grid.css';
 
@@ -8,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     * {
         border:0;
         box-sizing: border-box;
-        font-family: 'Raleway' , sans-serif;
+        font-family: 'Raleway', sans-serif;
         margin: 0;
         outline: none !important;
         padding: 0;
@@ -29,24 +30,42 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
-        body,
-        html {
+    body,
+    html {
+        font-size: 16px;
+        
+        &::after {
+            content: '';
             color: ${Colors.grey};
             background-color: ${Colors.white};
-            font-size: 16px;
+            background-image: url(${bg});
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: .05;
         }
+    }
 
-        ul {
-            list-style: none;
-        }
+    
 
-        a {
-            text-decoration: none;
-        }
+    ul {
+        list-style: none;
+    }
 
-        textarea {
-            resize: none;
-        }
-    `;
+    a {
+        text-decoration: none;
+    }
+
+    textarea {
+        resize: none;
+    }
+`;
 
 export default GlobalStyle;
