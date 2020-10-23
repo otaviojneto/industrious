@@ -5,6 +5,38 @@ const Box = styled.div`
     margin: 10px 10px;
     display: flex;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
     /* flex-direction: column;
     align-items: center;
     padding: 72px 48px 80px;
