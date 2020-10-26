@@ -13,6 +13,7 @@ export default function Text({
     size,
     uppercase,
     weight,
+    padding,
 }) {
     return (
         <Txt
@@ -24,8 +25,9 @@ export default function Text({
             pb={pb}
             pt={pt}
             size={size}
-            uppercase
+            uppercase={uppercase}
             weight={weight}
+            padding={padding}
         >
             {children}
         </Txt>

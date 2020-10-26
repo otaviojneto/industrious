@@ -7,6 +7,7 @@ const Txt = styled.p`
     font-weight: ${props => props.weight && props.weight};
     line-height: ${props => props.lineHeight && props.lineHeight + 'px'};
     margin-bottom: ${props => props.mb && props.mb + 'px'};
+    padding: ${props => props.padding && props.padding + 'px'};
     margin-top: ${props => props.mt && props.mt + 'px'};
     padding-bottom: ${props => props.pb && props.pb + 'px'};
     padding-top: ${props => props.mb && props.mb + 'px'};

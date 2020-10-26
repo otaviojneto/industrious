@@ -1,23 +1,52 @@
 import React from 'react';
 import Text from '../../components/Text';
 import Types from '../../components/types';
-import { FaRegIdCard } from 'react-icons/fa';
+import {
+    FaRegIdCard,
+    FaRegCopy,
+    FaSave,
+    FaFileCode,
+    FaTelegramPlane,
+    FaFireAlt,
+} from 'react-icons/fa';
+import colors from '../../styles/colors';
 
 const listType = [
     {
-        icon: <FaRegIdCard size={100} color={'red'} />,
-        title: 'dfghjkl',
-        text: 'sdxfcgyvhbunjiomkhnjihyg hjhyiuij',
+        icon: <FaRegIdCard size={100} color={colors.primary} />,
+        title: 'FEUGIAT CONSEQUAT',
+        text:
+            'Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
     },
     {
-        icon: <FaRegIdCard size={100} color={'red'} />,
-        title: 'dfghjkl',
-        text: 'sdxfcgyvhbunjiomkhnjihyg hjhyiuij',
+        icon: <FaRegCopy size={100} color={colors.primary} />,
+        title: 'ANTE SEM INTEGER',
+        text:
+            'Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
     },
     {
-        icon: <FaRegIdCard size={100} color={'red'} />,
-        title: 'dfghjkl',
-        text: 'sdxfcgyvhbunjiomkhnjihyg hjhyiuij',
+        icon: <FaSave size={100} color={colors.primary} />,
+        title: 'IPSUM CONSEQUAT',
+        text:
+            'Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
+    },
+    {
+        icon: <FaFileCode size={100} color={colors.primary} />,
+        title: 'INTERDUM GRAVIDA',
+        text:
+            'Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
+    },
+    {
+        icon: <FaTelegramPlane size={100} color={colors.primary} />,
+        title: 'FAUCIBUS CONSEQUAT',
+        text:
+            'Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
+    },
+    {
+        icon: <FaFireAlt size={100} color={colors.primary} />,
+        title: 'ACCUMSAN VIVERRA',
+        text:
+            ' Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.',
     },
 ];
 
@@ -32,14 +61,18 @@ export default function Service() {
                 mt={64}
                 mb={24}
             >
-                SEM TURPIS AMET SEMPER
+                Aqui vai alguma informação
             </Text>
-            <Text align={'center'} lineHeight={24} size={15} weight={400}>
+            <Text
+                align={'center'}
+                lineHeight={24}
+                size={15}
+                weight={400}
+                mb={40}
+            >
                 In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim
-                aliquet. Accumsan ac integer lobortis commodo ornare
-            </Text>
-            <Text align={'center'} lineHeight={24} size={15} weight={400}>
-                aliquet accumsan erat tempus amet porttitor.
+                aliquet. Accumsan ac integer lobortis commodo ornare aliquet
+                accumsan erat tempus amet porttitor.
             </Text>
 
             <div className="row">

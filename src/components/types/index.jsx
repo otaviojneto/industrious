@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Box from './style';
-
 import Text from '../Text';
+
 export default class Types extends Component {
     render() {
         return (
