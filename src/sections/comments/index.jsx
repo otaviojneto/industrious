@@ -20,9 +20,9 @@ export default class Comments extends Component {
                     align={'center'}
                     lineHeight={24}
                     maxWidth={'75%'}
+                    mb={68}
                     size={15}
                     weight={400}
-                    mb={68}
                 >
                     {this.props.description}
                 </Text>
