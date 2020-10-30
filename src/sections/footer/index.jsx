@@ -64,7 +64,6 @@ export default class Footer extends Component {
                             <Text
                                 color={Colors.greywhite}
                                 lineHeight={24}
-                                pb={100}
                                 pr={36}
                                 size={15}
                                 weight={400}

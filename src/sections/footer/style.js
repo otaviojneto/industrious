@@ -50,6 +50,7 @@ export const Copyright = styled.div`
     border-top: 1px solid ${Colors.greywhite};
     text-align: center;
     padding: 10px;
+    padding-bottom: 50px;
 `;
 
 export default BgFooter;
