@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/industrious/static/css/main.ff1f26e2.chunk.css",
+    "main.js": "/industrious/static/js/main.ac21ea5b.chunk.js",
+    "main.js.map": "/industrious/static/js/main.ac21ea5b.chunk.js.map",
+    "runtime-main.js": "/industrious/static/js/runtime-main.5f3dd53d.js",
+    "runtime-main.js.map": "/industrious/static/js/runtime-main.5f3dd53d.js.map",
+    "static/js/2.e55ab6f2.chunk.js": "/industrious/static/js/2.e55ab6f2.chunk.js",
+    "static/js/2.e55ab6f2.chunk.js.map": "/industrious/static/js/2.e55ab6f2.chunk.js.map",
+    "index.html": "/industrious/index.html",
+    "precache-manifest.a6dd0153e702ae8c22d7e94daa98de7e.js": "/industrious/precache-manifest.a6dd0153e702ae8c22d7e94daa98de7e.js",
+    "service-worker.js": "/industrious/service-worker.js",
+    "static/css/main.ff1f26e2.chunk.css.map": "/industrious/static/css/main.ff1f26e2.chunk.css.map",
+    "static/js/2.e55ab6f2.chunk.js.LICENSE.txt": "/industrious/static/js/2.e55ab6f2.chunk.js.LICENSE.txt",
+    "static/media/bg.jpg": "/industrious/static/media/bg.b69e958f.jpg",
+    "static/media/cta01.jpg": "/industrious/static/media/cta01.110272ca.jpg",
+    "static/media/generic.jpg": "/industrious/static/media/generic.20330989.jpg",
+    "static/media/pic01.jpg": "/industrious/static/media/pic01.2e72e89a.jpg",
+    "static/media/pic02.jpg": "/industrious/static/media/pic02.80a19663.jpg",
+    "static/media/pic03.jpg": "/industrious/static/media/pic03.5096fe30.jpg",
+    "static/media/undraw_page_not_found_su7k.svg": "/industrious/static/media/undraw_page_not_found_su7k.a6a905c4.svg",
+    "static/media/user-default.png": "/industrious/static/media/user-default.7861dadc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f3dd53d.js",
+    "static/js/2.e55ab6f2.chunk.js",
+    "static/css/main.ff1f26e2.chunk.css",
+    "static/js/main.ac21ea5b.chunk.js"
+  ]
+}
