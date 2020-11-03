@@ -11,7 +11,7 @@ import Home from '../views/home';
 import notFound from '../views/notFound';
 
 const Routes = () => (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route path="/" exact={true} component={Home} />
             <Route path="/generic" exact={true} component={Generic} />
