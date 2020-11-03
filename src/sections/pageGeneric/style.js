@@ -15,6 +15,7 @@ const BgGeneric = styled.div`
     position: relative;
     text-align: center;
     width: 100%;
+    margin-bottom: 120px;
 
     &::before {
         content: '';
@@ -33,9 +34,16 @@ const BgGeneric = styled.div`
 `;
 
 export const TxtGeneric = styled.div`
+    border-bottom: 1px solid ${Colors.grey};
+
+    &:last-of-type {
+        border-bottom: none;
+    }
+`;
+
+export const Content = styled.div`
     background-color: ${Colors.white};
-    margin: 128px 0 96px 0;
-    text-align: center;
+    padding: 0 32px;
 `;
 
 export default BgGeneric;
