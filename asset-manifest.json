@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/industrious/static/css/main.ff1f26e2.chunk.css",
-    "main.js": "/industrious/static/js/main.ac21ea5b.chunk.js",
-    "main.js.map": "/industrious/static/js/main.ac21ea5b.chunk.js.map",
+    "main.js": "/industrious/static/js/main.7fc0f707.chunk.js",
+    "main.js.map": "/industrious/static/js/main.7fc0f707.chunk.js.map",
     "runtime-main.js": "/industrious/static/js/runtime-main.5f3dd53d.js",
     "runtime-main.js.map": "/industrious/static/js/runtime-main.5f3dd53d.js.map",
     "static/js/2.e55ab6f2.chunk.js": "/industrious/static/js/2.e55ab6f2.chunk.js",
     "static/js/2.e55ab6f2.chunk.js.map": "/industrious/static/js/2.e55ab6f2.chunk.js.map",
     "index.html": "/industrious/index.html",
-    "precache-manifest.a6dd0153e702ae8c22d7e94daa98de7e.js": "/industrious/precache-manifest.a6dd0153e702ae8c22d7e94daa98de7e.js",
+    "precache-manifest.ee181d1e7313a71b28d61b42ddfb9ddb.js": "/industrious/precache-manifest.ee181d1e7313a71b28d61b42ddfb9ddb.js",
     "service-worker.js": "/industrious/service-worker.js",
     "static/css/main.ff1f26e2.chunk.css.map": "/industrious/static/css/main.ff1f26e2.chunk.css.map",
     "static/js/2.e55ab6f2.chunk.js.LICENSE.txt": "/industrious/static/js/2.e55ab6f2.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.5f3dd53d.js",
     "static/js/2.e55ab6f2.chunk.js",
     "static/css/main.ff1f26e2.chunk.css",
-    "static/js/main.ac21ea5b.chunk.js"
+    "static/js/main.7fc0f707.chunk.js"
   ]
 }
