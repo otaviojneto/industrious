@@ -7,7 +7,7 @@ export default class Navigation extends Component {
         menuList: [
             {
                 name: 'Home',
-                link: '/',
+                link: '/notFound',
             },
             {
                 name: 'Generic',

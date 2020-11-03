@@ -17,11 +17,10 @@ export default class Bloquote extends Component {
                         />
 
                         <Text size={12} weight={400} lineHeight={18}>
-                            -
+                            -&nbsp;
                             <strong>
-                                {' '}
                                 {this.props.author.name || 'Desconhecido'}
-                            </strong>{' '}
+                            </strong>
                             {this.props.author.job} -{' '}
                             {this.props.author.company}.
                         </Text>

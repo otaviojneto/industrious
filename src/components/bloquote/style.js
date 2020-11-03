@@ -3,6 +3,7 @@ import Colors from '../../styles/colors';
 
 const Bloquet = styled.div`
     background-color: ${Colors.white};
+    margin-bottom: 20px;
     padding: 42px;
 `;
 
@@ -21,6 +22,7 @@ export const Autor = styled.div`
 
     img {
         border-radius: 50%;
+        margin-right: 12px;
         width: 50px;
     }
 

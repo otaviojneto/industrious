@@ -50,7 +50,7 @@ export default class Footer extends Component {
             <BgFooter>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-12 col-lg-6">
                             <Text
                                 color={Colors.white}
                                 lineHeight={28}
@@ -81,7 +81,7 @@ export default class Footer extends Component {
                                 gravida.m
                             </Text>
                         </div>
-                        <div className="col-3">
+                        <div className="col-12 col-lg-3">
                             <Text
                                 weight={300}
                                 size={15}
@@ -102,7 +102,7 @@ export default class Footer extends Component {
                                 ))}
                             </List>
                         </div>
-                        <div className="col-3">
+                        <div className="col-12 col-lg-3">
                             <Text
                                 weight={300}
                                 size={15}

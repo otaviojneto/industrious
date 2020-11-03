@@ -43,6 +43,7 @@ export const TxtGeneric = styled.div`
 
 export const Content = styled.div`
     background-color: ${Colors.white};
+    margin-top: 100px;
     padding: 0 32px;
 `;
 

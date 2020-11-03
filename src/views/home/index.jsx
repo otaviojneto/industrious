@@ -60,7 +60,12 @@ export default class Home extends Component {
         return (
             <>
                 <Navigation />
-                <Hero />
+                <Hero
+                    title={'INDUSTRIOUS'}
+                    description={
+                        'A responsive business oriented template with a video background.'
+                    }
+                />
                 <Service />
                 <Information
                     title={informations.title}

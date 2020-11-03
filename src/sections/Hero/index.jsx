@@ -6,7 +6,7 @@ import DivHero from './style';
 export default class Hero extends Component {
     render() {
         return (
-            <DivHero>
+            <DivHero height={this.props.height}>
                 <div className="box">
                     <Text
                         weight={200}
@@ -15,28 +15,19 @@ export default class Hero extends Component {
                         color={Colors.white}
                         mb={22}
                     >
-                        INDUSTRIOUS
-                    </Text>
-                    <Text
-                        weight={400}
-                        size={22}
-                        lineHeight={36}
-                        color={Colors.greywhite}
-                        mb={8}
-                    >
-                        A responsive business oriented template with a video
-                        background
+                        {this.props.title}
                     </Text>
 
-                    <Text
-                        weight={400}
-                        size={22}
-                        lineHeight={36}
-                        color={Colors.greywhite}
-                    >
-                        designed by TEMPLATED and released under the Creative
-                        Commons License.
-                    </Text>
+                    {this.props.description && (
+                        <Text
+                            weight={400}
+                            size={22}
+                            lineHeight={36}
+                            color={Colors.greywhite}
+                        >
+                            {this.props.description}
+                        </Text>
+                    )}
                 </div>
             </DivHero>
         );

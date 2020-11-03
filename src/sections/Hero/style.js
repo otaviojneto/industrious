@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const DivHero = styled.div`
     position: relative;
-    height: 550px;
+    height: ${props => (props.height ? props.height : 550)}px;
     overflow-y: hidden;
     background-image: url('https://templated.co/items/demos/industrious/images/banner.jpg');
     background-attachment: fixed;
@@ -28,10 +28,19 @@ const DivHero = styled.div`
     .box {
         position: relative;
         text-align: center;
+        padding: 0 32px;
         z-index: 20;
 
         h1 {
             margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            p {
+                &:first-of-type {
+                    font-size: 40px;
+                }
+            }
         }
     }
 `;

@@ -77,7 +77,7 @@ export default function Service() {
 
             <div className="row">
                 {listType.map((item, index) => (
-                    <div className="col-4">
+                    <div className="col-12 col-md-6 col-lg-4">
                         <Types
                             icon={item.icon}
                             title={item.title}

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Text from '../../components/Text';
+import Hero from '../../sections/Hero';
 import Colors from '../../styles/colors';
-import BgGeneric, { Content, TxtGeneric } from './style';
+import { Content, TxtGeneric } from './style';
 
 export default class Page extends Component {
     state = {
@@ -22,21 +23,10 @@ export default class Page extends Component {
     render() {
         return (
             <>
-                <BgGeneric>
-                    <Text
-                        align={'center'}
-                        color={Colors.white}
-                        lineHeight={53}
-                        pt={46}
-                        size={44}
-                        weight={300}
-                    >
-                        GENERIC PAGE
-                    </Text>
-                </BgGeneric>
+                <Hero title={'GENERIC PAGE'} height={290} />
                 <Content className="container">
                     {this.state.txt.map((item, index) => (
-                        <TxtGeneric>
+                        <TxtGeneric key={index}>
                             <Text
                                 color={Colors.grey}
                                 lineHeight={43}

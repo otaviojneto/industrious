@@ -29,7 +29,7 @@ export default class Comments extends Component {
 
                 <div className="row">
                     {this.props.data.map((item, index) => (
-                        <div key={index} className="col-4">
+                        <div key={index} className="col-12 col-md-6 col-lg-4">
                             <Bloquote text={item.text} author={item.author} />
                         </div>
                     ))}
